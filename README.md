@@ -1,1 +1,2 @@
 # PRNN
+There are some caveats to running this code: 1、The algorithm employed in this study is a recursion neural network embedded feature selection algorithm specifically designed for cancer classification. Given the high dimensionality of the cancer multi-omics dataset, it is recommended to apply a filtering method prior to executing this code in order to reduce computational costs, the relevant code has been given in PRNN.py. 2、Then, the filtered data can be input into PRNN to obtain gene name.
